@@ -22,3 +22,30 @@ if(score>=5){
 let marks=90;
 let result=(marks>=40) ? "Pass" : "Fail";
 console.log(result);
+
+// switch-case  
+let day=3;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;  
+    case 3:
+        console.log("Wednesday");
+        break;
+        case 4:
+            console.log("Thursday");
+            break;
+            case 5:
+                console.log("Friday");
+                case 6:
+                    console.log("Saturday");
+                    break;
+                    case 7:
+                        console.log("Sunday");
+                        break;
+                        default:
+                            console.log("invalid");
+}
