@@ -2,9 +2,9 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)  
 ![Node.js](https://img.shields.io/badge/Node.js-runtime-green?logo=node.js)  
-![GitHub repo size](https://img.shields.io/github/repo-size/YourUsername/your-repo-name)  
-![GitHub last commit](https://img.shields.io/github/last-commit/YourUsername/your-repo-name)  
-![GitHub stars](https://img.shields.io/github/stars/YourUsername/your-repo-name?style=social)  
+![GitHub repo size](https://img.shields.io/github/repo-size/YasirAhmed2/Javascript-Course)  
+![GitHub last commit](https://img.shields.io/github/last-commit/YasirAhmed2/Javascript-Course)  
+![GitHub stars](https://img.shields.io/github/stars/YasirAhmed2/Javascript-Course?style=social)  
 
 Welcome to my **JavaScript Learning Repository**! 🎯  
 Here, I share my journey of learning **JavaScript basics to advanced concepts** through small tasks, challenges, and projects.  
