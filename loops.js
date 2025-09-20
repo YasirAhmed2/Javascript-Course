@@ -1,5 +1,6 @@
-// 1. For loop in JavaScript
+// ********* Loops in JavaScript *********
 
+// 1. For loop in JavaScript
 // 1.1 Syntax of for loop
 // for(exp1;exp2;exp3){
 //     //code block to be executed
