@@ -13,13 +13,13 @@ Here, I share my journey of learning **JavaScript basics to advanced concepts** 
 
 ## 📂 Repository Contents  
 
-- ✅ **Basics** – Variables, Data Types, Operators  
-- ✅ **Conditionals** – If/Else, Switch  
-- ✅ **Loops** – For, While, Do-While  
-- ✅ **Functions** – Regular, Arrow, Parameters & Return  
-- ✅ **Arrays & Strings** – Manipulation & Methods  
-- ✅ **Objects** – Keys, Values, Iteration  
-- ✅ **Practice Tasks** – Problem-solving with JS  
+-  **Basics** – Variables, Data Types, Operators  
+-  **Conditionals** – If/Else, Switch  
+-  **Loops** – For, While, Do-While  
+-  **Functions** – Regular, Arrow, Parameters & Return  
+-  **Arrays & Strings** – Manipulation & Methods  
+-  **Objects** – Keys, Values, Iteration  
+-  **Practice Tasks** – Problem-solving with JS  
 
 ---
 
