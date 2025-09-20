@@ -1,4 +1,6 @@
-// for loop syntax in javaScript
+// 1. For loop in JavaScript
+
+// 1.1 Syntax of for loop
 // for(exp1;exp2;exp3){
 //     //code block to be executed
 // }
@@ -6,28 +8,33 @@
 // exp2 defines the condition for the loop to run (for example i must be less than 5).
 // exp3 increases a value (i++) each time the code block has been executed.
 
-// Trying with an example
+// 1.2 Example 1 of for loop
 for(let i=0;i<=100;i++){
     console.log(i);
+    // Output: 0,1,2,3,....100
 }
 
-// Another example
+// 1.3 Example 2 of for loop
 let cars=["BMW","Volvo","Saab","Ford"];
 let text="";
 for(i=0;i<cars.length;i++){
     text+=cars[i]+"\n";
 }
 console.log(text);
+// Output: BMW
+//         Volvo
+//         Saab
+//         Ford
 
-// loop scope
+// 1.4 scope of variable in for loop
 let x=5;
 for(let x=0;x<10;x++){
-    console.log(x);
+    console.log(x); // Output: 0,1,2,3,4,5,6,7,8,9
     // inside loop x is 0 to 9
 }
-console.log(x);  // here x is 5
+console.log(x);  // here x is 5 // Output: 5
 
-// Nested for loop (loop inside another loop)
+// 1.5 Nested for loop (loop inside another loop)
 // Outer loop used for rows and inner for columns
 for(let i=1;i<=20;i++)
 {
@@ -35,8 +42,18 @@ for(let i=1;i<=20;i++)
     for(j=1;j<=10;j++){
         console.log("Columns:",j);
     }
+    // Output: Rows: 1
+    //         Columns: 1
+    //         Columns: 2
+    //         ...
+    //         Columns: 10
+    //         Rows: 2
+    //         Columns: 1
+    //         ...
+    //         Rows: 20
+    //         Columns: 10
 }      
-
+// 1.6 Example of nested for loop with 2D array
 let arr=[
     [1,2,3,4,5,6],
     [7,8,9,10,11,12],
@@ -49,3 +66,25 @@ for(let i=0;i<5;i++){
         console.log(arr[i][j]);
     }
 }
+// Output: 1,2,3,...30
+
+// 2. While loop in JavaScript
+// 2.1 Syntax of while loop
+// while(condition){
+//     //code block to be executed
+// }
+// The code block inside the loop will be executed as long as the condition is true.
+
+// 2.2 Example of while loop
+let z=80;
+while(z<200){
+    console.log(z);
+    z+=15;
+    // Output: 80,95,110,125,140,155,170,185
+}
+
+// 2.3 infinite loop
+// while(true){
+//     console.log("Hello World");
+//    // to stop infinite loop we use break statement
+// }
