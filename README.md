@@ -28,7 +28,7 @@ Here, I share my journey of learning **JavaScript basics to advanced concepts** 
 1. Clone the repository  
 
    ```bash
-   git clone https://github.com/YourUsername/Javascript-Course
+   git clone https://github.com/YasirAhmed2/Javascript-Course
 2. Navigate into the folder
 
     ```
