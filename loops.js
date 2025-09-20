@@ -26,3 +26,26 @@ for(let x=0;x<10;x++){
     // inside loop x is 0 to 9
 }
 console.log(x);  // here x is 5
+
+// Nested for loop (loop inside another loop)
+// Outer loop used for rows and inner for columns
+for(let i=1;i<=20;i++)
+{
+    console.log("Rows:",i)
+    for(j=1;j<=10;j++){
+        console.log("Columns:",j);
+    }
+}      
+
+let arr=[
+    [1,2,3,4,5,6],
+    [7,8,9,10,11,12],
+    [13,14,15,16,17,18],
+    [19,20,21,22,23,24],
+    [25,26,27,28,29,30]
+]
+for(let i=0;i<5;i++){
+    for(let j=0;j<6;j++){
+        console.log(arr[i][j]);
+    }
+}
