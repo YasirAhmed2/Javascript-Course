@@ -51,11 +51,11 @@ Here, I share my journey of learning **JavaScript basics to advanced concepts** 
 
 ## 🎯 Goals
 
-Build strong JS fundamentals
+- Build strong JS fundamentals
 
-Solve coding challenges
+- Solve coding challenges
 
-Prepare for projects & interviews
+- Prepare for projects & interviews
 
 ---
 
