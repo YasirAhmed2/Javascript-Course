@@ -89,3 +89,49 @@ while(z<200){
 //     console.log("Hello World");
 //    // to stop infinite loop we use break statement
 // }
+
+// 3. Do while loop in javascript
+// 3.1 Syntax of do while loop
+// do{
+//     //code block to be executed
+// }while(condition);
+// The code block inside the loop will be executed once before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+// 3.2 Example of do while loop
+let f=4;
+do{
+    console.log(f); // Output: 4
+    f++;
+}while(f<4);
+// The loop will execute once and print 4, then check the condition (f<4) which is false, so it stops.
+
+
+// 4. for-in loop in Javascript
+// 4.1 for-in loop syntax
+// for(variable in object){
+//     // code block to be executed
+// }
+// for-in loop is used to iterate over the properties of an object 
+
+// 4.2 Example of for-in loop with object
+let person={fname:"Yasir",lname:"Ahmed",age:17};
+for(let key in person){
+    console.log(key + ": " + person[key]);
+}
+
+// 5. for-of loop in javascript
+// 5,1 for-of loop syntax
+// for(variable of iterable){
+//     // code block to be executed
+// }
+// for-of loop is used to iterate over iterable objects like arrays, strings, maps, sets, etc.
+
+// 5.2 Example of for-of loop with array
+let fruits=["Apple","Banana","Mango","Orange"];     
+for(let fruit of fruits){
+    console.log(fruit);
+    // Output: Apple
+    //         Banana
+    //         Mango
+    //         Orange
+}   

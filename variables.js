@@ -41,9 +41,13 @@ testGlobal();
 function testLocal(){
     var localVar="I am local";
     console.log(localVar); // Output: I am local
+    sample =50; // Implicitly global (not recommended)
+    console.log(sample); // Output: 50
 }
 testLocal();
 // console.log(localVar); // Error: localVar is not defined
+console.log(sample); // Output: 50
+
 
 // 3. Data types in JavaScript
 // 3.1 Primitive data types
