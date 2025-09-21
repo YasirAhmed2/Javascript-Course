@@ -38,3 +38,12 @@ console.log(string3.toLowerCase()); // Output: hello i'm learning c++
 console.log(string1.toUpperCase()); // Output: HELLO I'M LEARNING JAVASCRIPT
 console.log(string2.toUpperCase()); // Output: HELLO I'M LEARNING PYTHON
 console.log(string3.toUpperCase()); // Output: HELLO I'M LEARNING C++
+
+// 3. string primitive vs String object
+// The eval() function evaluates JavaScript code represented as a string.
+// When eval() is used on a string primitive, it evaluates the string as code.
+// However, when eval() is used on a String object, it treats it as a regular object and returns the object itself.
+const s1 = "2 + 2"; // creates a string primitive
+const s2 = new String("2 + 2"); // creates a String object
+console.log(eval(s1)); // returns the number 4
+console.log(eval(s2)); // returns the string "2 + 2"
