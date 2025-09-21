@@ -18,4 +18,9 @@ function calculateFactorial(n){
 console.log("Factorial of 6 is: ", calculateFactorial(6)); // Output: 720
 
 // 3. A function to display table of a number
-function 
+function table(n){
+    for(let i=1;i<=10;i++){
+        console.log(n , " * ", i , " = ", n*i);
+    }
+}
+table(7); // Output: Table of 7
