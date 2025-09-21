@@ -11,3 +11,8 @@ console.log(string3); // Output: Hello I'm learning C++
 console.log(string1.charAt(4)); // Output: o
 console.log(string2.charAt(7)); // Output: I
 console.log(string3.charAt(10)); // Output: l
+
+// 3. using charCodeAt() method
+console.log(string1.charCodeAt(4)); // Output: 111
+console.log(string2.charCodeAt(7)); // Output: 39
+console.log(string3.charCodeAt(10)); // Output: 108
