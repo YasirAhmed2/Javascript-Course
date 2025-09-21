@@ -42,3 +42,16 @@ for(let i=0;i<str.length;i++){
         } 
 }
 console.log("Number of vowels in the string is:",count); // Output: Number of vowels in the string is: 10
+
+// Task # 05: Replacing spaces with hyphens in a string
+let str1="Hello I'm learning JavaScript";
+let str2="";
+for(let i=0;i<str1.length;i++){
+    if(str1[i]==' '){
+        str2+="-";
+    }else{
+        str2+=str1[i];
+    }
+}
+console.log(str1); // Output: Hello I'm learning JavaScript
+console.log(str2); // Output: Hello-I'm-learning-JavaScript
