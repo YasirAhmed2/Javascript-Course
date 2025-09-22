@@ -1,6 +1,5 @@
 // ********* Functions in JavaScript *********
 
-
 // 1. Function Declaration
 function greet(name){
     return "Hello, " + name + "!";
