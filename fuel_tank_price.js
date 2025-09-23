@@ -11,11 +11,10 @@ function fuelTankPrice(tankCapacity, CurrentFuel, pricePerLitre){
     return fuelRequired*pricePerLitre;
     }
 
-
-    const prompt = require("prompt-sync")();
-let tankFuelCapacity=prompt("Enter tank fuel capacity:");
-let currentFuelLevel=prompt("Enter current fuel level:");
-let perLitrePrice=prompt("Enter price per litre:");
+const prompt = require("prompt-sync")();
+let tankFuelCapacity=parseFloat(prompt("Enter tank fuel capacity:"));
+let currentFuelLevel=parseFloat(prompt("Enter current fuel level:"));
+let perLitrePrice=parseFloat(prompt("Enter price per litre:"));
 
 let totalPrice=fuelTankPrice(tankFuelCapacity,currentFuelLevel,perLitrePrice);
 console.log(totalPrice); 
