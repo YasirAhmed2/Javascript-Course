@@ -7,6 +7,7 @@ function isMirror(str1,str2){
        return false;
     }
 
+    
     // 2. Checking length of both strings
     if (str1.length!==str2.length){
         return false;

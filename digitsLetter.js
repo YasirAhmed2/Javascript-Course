@@ -7,6 +7,7 @@ function digitsLetter(number, string){
     return "Equal";
    }
 
+   
 }
 const prompt=require('prompt-sync')();
 let num= parseInt(prompt("Enter a number: "));
