@@ -11,11 +11,16 @@ function overSpeedFinder(speeds, limit){
         if(speeds[i]>limit){
             overSpeed[i]=speeds[i];
         }
+        
     }
-    return overSpeed;
+    let filteredOverSpeed=overSpeed.filter(item => item!==null && item!==undefined);
+    if(filteredOverSpeed.length===0){
+        return [0,0];
+    }
+    return filteredOverSpeed;
 }
 
 let speed=[60,70,40,30,10,100];
-let limit=40;
+let limit=200;
 let overSpeeder=overSpeedFinder(speed,limit);
 console.log(overSpeeder);
