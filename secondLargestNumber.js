@@ -1,4 +1,4 @@
-let arr = [20, 60, 50, 90, 30, 10, 100];
+let arr = [60,10,13,99,101,4,60,70,60];
 
 // removing duplicates
 let uniqueArray = [...new Set(arr)];

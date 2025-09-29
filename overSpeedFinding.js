@@ -21,6 +21,6 @@ function overSpeedFinder(speeds, limit){
 }
 
 let speed=[60,70,40,30,10,100];
-let limit=200;
+let limit=30;
 let overSpeeder=overSpeedFinder(speed,limit);
 console.log(overSpeeder);
