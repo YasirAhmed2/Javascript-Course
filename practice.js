@@ -55,3 +55,14 @@ for(let i=0;i<str1.length;i++){
 }
 console.log(str1); // Output: Hello I'm learning JavaScript
 console.log(str2); // Output: Hello-I'm-learning-JavaScript
+
+
+// Task # 06: Finding largest number in an array
+let arr=[10,20,5,30,50,40];
+let largest=arr[0]; 
+for(let i=1;i<arr.length;i++){
+    if(arr[i]>largest){
+        largest=arr[i];
+    }
+}
+console.log("Largest number in the array is:",largest); // Output: Largest number in the array is: 50
