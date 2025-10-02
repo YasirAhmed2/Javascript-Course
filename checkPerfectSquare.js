@@ -15,7 +15,6 @@ function isPerfectSquare(n){
         return false;
     }
 
-
     // for 0 and 1 returning true
     if(n==0||n==1){
 return true;
@@ -31,6 +30,8 @@ return true;
 
     }
 }
-
+const prompt=require("prompt-sync")();
+let number=prompt("Enter a number: ");
+console.log(isPerfectSquare(number));
 console.log(isPerfectSquare(16)); // output: true
 console.log(isPerfectSquare(14)); // output: false
