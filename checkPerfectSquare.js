@@ -9,15 +9,13 @@ return boolean
 */
 
 function isPerfectSquare(n){
-
     // For negative numbers returning false
     if(n<0){
         return false;
     }
-
     // for 0 and 1 returning true
     if(n==0||n==1){
-return true;
+        return true;
     }
 
     for(let i=2;i<=Math.floor(n/2);i++){
