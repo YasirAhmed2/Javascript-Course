@@ -10,10 +10,11 @@ return word
 function getLongestWord(str){
 let splittedString =str.split(" ");
 let longestWord=splittedString[0];
-for(let i=1;i<splittedString;i++){
-    if(splittedString[i].length>longestWord.longestWord){
-        LongestWord=splittedString[i];
+for(let i=1;i<splittedString.length;i++){
+    if(splittedString[i].length>longestWord.length){
+        longestWord=splittedString[i];
     }
 }
-return LongestWord;
+return longestWord;
 }
+console.log(getLongestWord("Hello how are you I am learning Java")); // should return "Yasir"
