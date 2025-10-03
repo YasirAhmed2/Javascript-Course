@@ -1,0 +1,18 @@
+Problem Statements 3 Oct, 2025
+
+Problem statement # 1: phone number formatter
+Given a string of ten digits, return the string as a phone number is this format.
+"+D (DDD) DDD-DDDD"
+Example: "92123748521"
+return "+9 (212) 374 8521"
+function formatNumber(number){
+return number;
+}
+
+Problem statement # 2: CSV Header
+Given the first line of a comma separated values (csv), return an array containing the headings.
+- The first line of csv file contains headings separated by commas.
+- Remove any leading or trailing whitespaces from each heading.
+function getHeadings(csv){
+
+}
