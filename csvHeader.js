@@ -10,12 +10,11 @@ function getHeadings(csv){
 
 function getHeadings(csv){
 
-let csvHeadings="";
-for(let i=0;i<csv.length;i++){
-    
-}
-
+return csv.split(",").map(heading => heading.trim());
 
 }
 
-let headings=getHeadings("longitude,latitude,housing_median_age,total_rooms,total_bedrooms,population,households,median_income,median_house_value,ocean_proximity");
+let firstLine=" S.No, Name, Age, Email, Phone Number ";
+
+let headings=getHeadings(firstLine);
+console.log(headings);
