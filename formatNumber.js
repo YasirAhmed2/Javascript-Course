@@ -9,7 +9,7 @@ return number;
 }
 */
 function formatNumber(number){
-// regular expression to check if the input is valid
+// regular expression to check if the input is valid 
 number = number.replace(/\D/g, ""); // Remove all non-digit characters
 
     let phoneNumber="+";

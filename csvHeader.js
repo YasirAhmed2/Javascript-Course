@@ -9,12 +9,9 @@ function getHeadings(csv){
 */
 
 function getHeadings(csv){
-
-return csv.split(",").map(heading => heading.trim());
-
+    return csv.split(",").map(heading => heading.trim());
 }
 
 let firstLine=" S.No, Name, Age, Email, Phone Number ";
-
 let headings=getHeadings(firstLine);
 console.log(headings);
