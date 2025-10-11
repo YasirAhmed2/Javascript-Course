@@ -1,7 +1,7 @@
 function launchFuel(payload) {
   let totalFuel = 0;
   let fuel = Math.floor(payload / 5);
-
+  totalFuel += fuel;
   while (fuel > 0) {
     totalFuel += fuel;
     fuel = Math.floor(fuel / 5);
