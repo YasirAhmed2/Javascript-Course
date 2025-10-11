@@ -16,10 +16,10 @@ Here, I share my journey of learning **JavaScript basics to advanced concepts** 
 -  **Basics** – Variables, Data Types, Operators  
 -  **Conditionals** – If/Else, Switch  
 -  **Loops** – For, While, Do-While  
--  **Functions** – Regular, Arrow, Parameters & Return  
+-  **Functions** – Regular, Arrow, Parameters & Return, closures  
 -  **Arrays & Strings** – Manipulation & Methods  
 -  **Objects** – Keys, Values, Iteration  
--  **Practice Tasks** – Problem-solving with JS  
+-  **Practice Tasks** – Solved 16 problems (Problem statements from freeCodeCamp facebook page)  
 
 ---
 
