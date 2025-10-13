@@ -12,6 +12,10 @@ processData("hello world", function(result){
     console.log("Processed Data:", result); // Output: Processed Data: HELLO WORLD
 });
 
+// Example with arrow function as callback
+processData("javascript callbacks", (result) => {
+    console.log("Processed Data:", result); // Output: Processed Data: JAVASCRIPT CALLBACKS
+}); 
 
 
 
