@@ -21,4 +21,5 @@ fetchData()
         console.error("Error:", error);
     });
 
+// example with async await
 
