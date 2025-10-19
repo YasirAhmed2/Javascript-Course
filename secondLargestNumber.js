@@ -1,5 +1,6 @@
 let arr = [60,10,13,99,101,4,60,70,60];
 
+
 // removing duplicates
 let uniqueArray = [...new Set(arr)];
 console.log("Unique array is: " + uniqueArray);

@@ -12,6 +12,7 @@ const users = [
   { id: 4, name: "Diana", isAdmin: false }
 ];
 
+
 // makeAdmin function
 function makeAdmin(id) {
   // Clone the users array
