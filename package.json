@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "mongo": "^0.1.0",
     "prompt-sync": "^4.2.0"
   },
   "name": "java-script-introductory-course",
@@ -7,7 +8,6 @@
   "description": "![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)  \r ![Node.js](https://img.shields.io/badge/Node.js-runtime-green?logo=node.js)  \r ![GitHub repo size](https://img.shields.io/github/repo-size/YasirAhmed2/Javascript-Course)  \r ![GitHub last commit](https://img.shields.io/github/last-commit/YasirAhmed2/Javascript-Course)  \r ![GitHub stars](https://img.shields.io/github/stars/YasirAhmed2/Javascript-Course?style=social)",
   "main": "arrays.js",
   "type": "module",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
