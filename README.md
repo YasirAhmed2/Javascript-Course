@@ -47,10 +47,15 @@ Here, I share my journey of learning **JavaScript basics to advanced concepts** 
 🔹 Operators & Expressions
 
 🔹 Loops (for, while, do-while, nested loops, for in, for of)
+
 🔹Functions (Nameless functions, arrow functions)
+
 🔹Async Operations (Callback function, promises, await)
+
 🔹Backend Server and Restful API's using ExpressJs
+
 🔹Integrating MongoDB with our ExpressJs server
+
 🔹 Problem-Solving Tasks (Factorial, FizzBuzz etc.)
 
 ## 🎯 Goals
